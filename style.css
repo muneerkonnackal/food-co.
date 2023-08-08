@@ -7,7 +7,7 @@
 
 section {
     width: 100%;
-    height: 1000px;
+    height: 50vw;
 
 }
 
@@ -61,9 +61,7 @@ section nav ul li a {
 /* experiment */
 section nav .exp {
     display: grid;
-    
-    /* margin-top: 15px; */
-
+  
 }
 
 section nav .exp .wrapper {
@@ -173,48 +171,6 @@ section nav .exp .wrapper .cart:hover .tooltip::before{
 }
 
 
-
-
-/* 
-section nav .ul-2 i{
-    color: #000;
-    width: 50px;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    margin: 0px 5px;
-    align-items: center;
-text-decoration: none;
-border: 2px solid #facc22; 
-border-radius: 50%;
- padding: 7px 20px; 
-transition: 0.3s;
-}
-
-section nav .ul-2 i:hover{
-    background-color: #facc22;
-    border: 2px solid #facc22;
-    animation: shake ease .75s forwards;
-} */
-
-/* @keyframes shake {
-    0% {
-        transform: rotate(15deg);
-    }
-
-    20% {
-        transform: rotate(-15deg);
-    }
-
-    30% {
-        transform: rotate(15deg);
-    }
-
-    40% {
-        transform: rotate(-15deg);
-    }
-} */
-
  section nav ul li a.action {
     color: #facc22;
 }
@@ -233,17 +189,7 @@ section nav .login a {
     
 }
 
-/* section nav .login a::after{
-    height: 0;
-    left: 0;
-    top: 0;
-    transition: 0.3s;
-    width: 100%;
-}
 
-section nav .login a:hover:after{
-    height: 100%;
-} */
 
 
 
@@ -665,72 +611,24 @@ section .main .main-image img {
 
 
 
-/* gallery */
 
-/* .gallery{
-  width: 100%;
-  padding: 35px 0 50px 0;  
-}
-
-.gallery h1{
-display: flex;
-align-items: center;
-justify-content: center;
-font-size: 45px;
-}
-
-.gallery h1 span{
-    color: #facc22;
-    margin-left: 15px;
-}
-.gallery .gallery-box{
-    width: 95%;
-    margin: 50px auto 0 auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 10px;
-
-}
-
-.gallery .gallery-box .gallery-image{
-    width: 470px;
-    height: 350px;
-    margin: 0 auto;
-    border-radius: 5px;
-    overflow: hidden;
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
-}
-
-.gallery .gallery-box .gallery-image img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-.gallery .gallery-box .gallery-image:hover img{
-    transform: scale(1.1);
-} */
 
 /* experiment- gallery */
 
 .gallery{
-    height: 50vw;
+    height: 40vw;
     width: 100%;
     
 }
 
 .card {
     width: 100%;
-    height: 50vw;
+    height: 40vw;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    margin-top: -160px;
+    /* margin-top: -160px; */
 }
 
 .gallery h1 {
@@ -738,7 +636,7 @@ font-size: 45px;
     align-items: center;
     justify-content: center;
     font-size: 55px;
-    margin-top: 10px;
+    margin-top: 100px;
     font-family: 'Kaushan Script', cursive;
 }
 
@@ -749,7 +647,7 @@ font-size: 45px;
 }
 
 .card img {
-    height: 600px;
+    height: 550px;
     width: 500px;
     border-radius: 13px;
     object-fit: cover;
@@ -762,10 +660,12 @@ font-size: 45px;
 }
 
 .card .card-box {
+ /* margin-top: 200px; */
     height: 550px;
-    margin: 50px;
+    width: 500px;
+    margin-left: 50px;
 
-    margin-left: 65px;
+    /* margin-left: 65px; */
     box-shadow: 0 0 10px rgb(77, 72, 72);
     overflow: hidden;
 
@@ -777,11 +677,12 @@ font-size: 45px;
     padding: 6px;
     box-sizing: border-box;
     position: absolute;
-    bottom: 190px;
+    bottom: 95px;
     background: rgba(27, 27, 27, 0.5);
     color: #ffffff;
     border-radius: 3px;
     overflow: hidden;
+   
     /* visibility: hidden; */
 
 }
@@ -1138,24 +1039,13 @@ font-size: 45px;
 }
 
 
-
-
-
-
-
-/* .order img {
-    width: 200px;
-
-
-} */
-
 /* footer */
 
 
 
 footer {
     width: 100%;
-    height: 350px;
+    height: 20vw;
     padding: 30px 0 0 20px;
     background: #eeeeee;
 
@@ -1294,18 +1184,6 @@ footer .footer-main .exp .wrapper .icon:hover .tooltip{
 
 
 
-/* footer .footer-main .exp .wrapper .icon .tooltip::before{
-    position: absolute;
-    content: "";
-    height: 12px;
-    width: 12px;
-    background: #fff;
-    bottom: 20px;
-    left: 3px;
-    top: 8.5px;
-    transform: translateX(-50%) rotate(45deg);
-   
-} */
 footer .footer-main .exp .wrapper .icon:hover span,
 footer .footer-main .exp .wrapper .icon:hover .tooltip{
     text-shadow: 0px -1px 0px rgba(0, 0, 0, .4);
@@ -1336,124 +1214,6 @@ footer .footer-main .exp .wrapper .gl:hover .tooltip,
 footer .footer-main .exp .wrapper .gl:hover .tooltip::before{
     background: #17c125;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* exp */
-/* .wr-home{
-   
-  display: grid;
-  height: 100%;
-  width: 100%;
-  place-items: center;
-  background: linear-gradient(315deg, #ffffff 0% #d7e1ec 74%);
-}
-.wr-home .wrapper .button{
-  display:inline-block;
- 
-    height: 60px;
-    width: 60px;
-    float: left;
-    margin: 0 5px;
-    overflow: hidden;
-   text-align: center;
-    background: #fff;
-    border-radius: 50px;
-    cursor: pointer;
-    box-shadow: 0px 10px 10px rgba(0, 0, 0, .1);
-       transition: all 0.3s ease-out;
-}
-
-.wrapper .button:hover{
-    width: 200px;
-   
-   
-
-}
-
-.wr-home .wrapper .button .icon{
-    display: inline-block;
-  
-    height: 60px;
-    width:60px ;
-    text-align: center;
-    border-radius: 50px;
-    box-sizing: border-box;
-    line-height: 60px;
-    transition: all 0.3s ease-out;
-   
-}
-
-.wr-home .wrapper .button .icon i{
-  
-    font-size: 25px;
-    line-height: 60px;
-    transition: all 0.3s ease-out;
-
-}
-
-.wrapper .button span{
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 60px;
-    margin-left: 10px;
-
-}  */
-
-
-
-
-/* .wr-home .wrapper .button:nth-child(1):hover .icon{
-background: #4267b2;
-
-}
-
-.wrapper .button:nth-child(2):hover .icon{
-    background: #1da1f2;
-}
-
-.wrapper .button:nth-child(3):hover .icon{
-    background: #e1306c;
-}
-
-.wrapper .button:nth-child(4):hover .icon{
-    background: rgb(4, 227, 108);
-}
-
-
-
-
-    
-.wrapper .button:nth-child(1) span{
-    color: #4267b2;
-}
-
-.wrapper .button:nth-child(2)span{
-    color: #1da1f2;
-}
-
-.wrapper .button:nth-child(3)span{
-    color: #e1306c;
-}
-
-.wrapper .button:nth-child(4)span{
-    color: #4fe247;
-}   */
-
-
-
-
-
 
 
 footer .end {
